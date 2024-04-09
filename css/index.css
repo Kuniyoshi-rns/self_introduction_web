@@ -1,0 +1,22 @@
+
+#toc{
+    list-style: none;
+}
+
+table{
+    margin:0%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+table td{
+    border-bottom:solid lightgray 1px;
+}
+
+table tr>*:first-child{
+    text-align: right;
+}
+
+table tr>*:first-child:after{
+    content :"\00A0\00A0";
+}
