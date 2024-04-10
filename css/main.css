@@ -38,14 +38,14 @@ a {
     text-decoration:underline;
 }
 
+img{
+    width: 20%;
+    height: auto;
+}
+
 @media screen and(orientation: landscape){
     img{
         width : 10%;
         height: auto;
     }
-}
-
-img{
-    width: 10%;
-    height: auto;
 }
