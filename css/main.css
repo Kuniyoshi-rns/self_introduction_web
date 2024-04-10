@@ -1,6 +1,7 @@
 body{
     color :#333333;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color:#EBF4EF;
 }
 
@@ -10,7 +11,7 @@ h1{
 
 h2 {
     color: green;
-    margin-top: 10%;
+    margin-top: 50px;
 }
 
 .img_btn{
@@ -23,10 +24,28 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:5%
+    margin-top: 30px;
+}
+
+.head_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     color:#69BD83;
     text-decoration:underline;
+}
+
+@media screen and(orientation: landscape){
+    img{
+        width : 10%;
+        height: auto;
+    }
+}
+
+img{
+    width: 10%;
+    height: auto;
 }
